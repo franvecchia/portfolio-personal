@@ -1,0 +1,112 @@
+@media (max-width: 767px) {
+    .title {
+        font-size: 26px;
+        font-weight: 600;
+        color: white;
+    }
+    
+    .subtitle {
+        font-size: 14px;
+        color: white;
+        margin-bottom: 30px;
+        font-weight: 600;
+    }
+
+    .h3-titulos {
+        color: #4C70EF;
+        font-family: 'Dancing Script', cursive;
+        font-size: 22px;
+        font-weight: bold;
+    }
+
+    .orden {
+        display:flex;
+        flex-direction: column;
+    }
+
+    .especializaciones-box {
+        background-color:#292C36 ;
+        border-radius: 12px;
+        width: 95%;
+    }
+
+    .habilidad-box {
+        background-color: #38405A;
+        border-radius: 8px;
+    }
+    
+    .repositorio-orden {
+        display: grid;
+    }
+
+    .repositorio-img {
+        height: 220px;
+        width: 100%;
+        border-radius: 12px 12px 0px 0px;
+    }
+
+    .sobreMi-img {
+        width: 500px;
+        height: 350px;
+        margin-top: 100px;
+    }
+
+    .sobreMi-subtitulo {
+        color: white;
+        font-size: 25px;
+        font-weight: 600;
+    }
+    
+    .sobreMi-texto {
+        color: #B0ADAD;
+        font-size: 16px;
+    }
+    
+    .mt-h3 {
+        margin-top: 30px;
+    }
+
+    .cards-orden {
+        display:grid;
+    }
+
+    .icons {
+        background-color: white;
+        margin: 8px;
+        text-decoration: none;
+        padding: 10px;
+        border-radius: 50%;
+    }
+
+    .icons img {
+        height: 20px;
+        width: 20px;
+    }
+
+    .contactame {
+        font-size: 30px;
+        font-weight: bold;
+        color: white;
+        padding-top: 20px;
+    }
+
+    .contacto-box1 {
+        background-color: #38405A;
+        border-radius: 12px 12px 0px 0px;
+        display: flex;
+        justify-content: center;
+        align-items: left;
+        margin-bottom: 100px;
+        margin: 10px;
+        margin-bottom: 0px;
+        width: 95%;
+    }
+
+    .contacto-box2 {
+        background-color: #292C36;
+        border-radius: 0px 0px 12px 12px;
+        width: 95%;
+        margin: 10px;
+        margin-top: 0px;
+    }
+}

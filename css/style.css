@@ -1,0 +1,373 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.landing {
+    height: 100vh;
+    background: url(../imagenes/background-landing.png);
+    background-size: cover;
+}
+
+.nav-list {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    margin-right: 50px;
+    text-decoration: none;
+    position: relative;
+}
+
+.color {
+    background-color: #292C36;
+}
+
+.nav-list:after {
+    content: "";
+    width: 0;
+    height: 2px;
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    right: 50%;
+    transition: all .3s;
+    will-change: width;
+}
+
+.nav-list:hover:after {
+    width: 100%;
+    right: 0;
+}
+
+.orden {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.main-landing {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 85vh;
+}
+
+.title {
+    font-size: 64px;
+    font-weight: 600;
+    color: white;
+}
+
+.subtitle {
+    font-size: 30px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.icons {
+    background-color: white;
+    margin: 10px;
+    text-decoration: none;
+    padding: 12px;
+    border-radius: 50%;
+}
+
+.icons:hover {
+    background-color: #B0ADAD;
+}
+
+.icons img {
+    height: 22px;
+    width: 22px;
+}
+
+.main-bg {
+    background-color: #212121;
+}
+
+.sobreMi-img {
+    width: 553px;
+    height: 406.31px;
+    margin-top: 100px;
+}
+
+.h3-titulos {
+    color: #4C70EF;
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.mt-h3 {
+    margin-top: 100px;
+}
+
+.sobreMi-subtitulo {
+    color: white;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.sobreMi-texto {
+    color: #B0ADAD;
+    font-size: 18px;
+}
+
+.especializaciones-box {
+    background-color:#292C36 ;
+    border-radius: 12px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.especializaciones-img {
+    height: 65px;
+    width: 65px;
+    display: inline;
+    margin-left: 10px;
+    background-color: #38405A;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.especializaciones-titulo {
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+}
+
+.cards-titulos {
+    margin-left: 10px;
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+    display: inline;
+}
+
+.especializaciones-textos {
+    color: #B0ADAD;
+    font-size: 16px;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.cards-orden {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.habilidades-img {
+    width: 70px;
+    height: 70px;
+    margin: 10px;
+}
+
+.habilidad-box {
+    background-color: #38405A;
+    border-radius: 8px;
+    margin: 8px;
+}
+
+.habilidades-nombres {
+    font-size: 16px;
+    color: white;
+    font-weight: 600;
+}
+
+.repositorio-orden {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.repositorio-img {
+    height: 300px;
+    width: 450px;
+    border-radius: 12px 12px 0px 0px;
+}
+
+.repositorio-box {
+    background-color:#292C36 ;
+    border-radius: 12px;
+    padding-bottom: 15px;
+    margin: 10px;
+}
+
+.ver-codigo {
+    border-radius: 8px;
+    padding: 8px 10px;
+    background-color: #4C70EF;
+    color: white;
+    border: 0px;
+    margin: 10px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.ver-codigo:hover {
+    background-color: #3254CD;
+}
+
+.ver-pagina {
+    border-radius: 8px;
+    padding:  8px 10px;
+    background-color: #38405A;
+    color: white;
+    border: 0px;
+    margin: 10px;
+    font-weight: 600;
+    text-decoration: none;
+
+}
+
+.ver-pagina:hover {
+    background-color: #454F6E;
+}
+
+.repositorio-textos {
+    color: #B0ADAD;
+    font-size: 16px;
+    margin: 10px 10px 20px 12px;
+}
+
+.repositorio-titulos {
+    margin: 10px;
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+}
+
+.contacto-box1 {
+    background-color: #38405A;
+    border-radius: 12px 0px 0px 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.contacto-img {
+    width: 45px;
+    height: 45px;
+    padding: 10px;
+    margin-left: 45px;
+}
+
+.contacto-texto {
+    font-size: 16px;
+    color: white;
+    font-weight: 600;
+}
+
+.contactame {
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    margin-left: 55px;
+    margin-bottom: 60px;
+}
+
+.contacto-box2 {
+    background-color: #292C36;
+    border-radius: 0px 12px 12px 0px;
+    margin-bottom: 100px;
+}
+
+.form-estilo {
+    background-color: #38405A;
+    border-radius: 6px;
+    border: 0px;
+    width: 80%;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    color: white;
+    resize: none;
+    padding: 5px;
+}
+
+.form-estilo:focus {
+    outline: none;
+}
+
+ textarea {
+    font-size: 14px;
+}
+
+.form-texto {
+    color: white;
+    font-size: 14px;
+    margin-left: 40px;
+    margin-top: 15px;
+    margin-bottom: 2px;
+}
+
+.form-mt {
+    margin-top: 40px;
+}
+
+.form-mb {
+    margin-bottom: 40px;
+}
+
+.form-boton {
+    display: flex;
+    background-color: #4C70EF;
+    padding: 5px 15px;
+    border: 0px;
+    border-radius: 6px;
+    color: white;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+#error {
+    color: red;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.form-boton:hover {
+    background-color: #3254CD;
+}
+
+.footer-box {
+    background-color: #38405A;
+}
+
+.footer-text {
+    color: white;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.footer-icons {
+    background-color: white;
+    text-decoration: none;
+    padding: 12px;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-bottom: 12px;
+    margin-top: 0px;
+}
+
+.footer-icons:hover {
+    background-color: #B0ADAD;
+}
+
+.footer-img {
+    height: 25px;
+    width: 25px;
+}
+
+.icons-orden {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
