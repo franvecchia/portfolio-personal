@@ -12,6 +12,8 @@ button.addEventListener('click', () => {
             confirmButtonText: 'Ok'
         })
     } else {
+        const formulario = document.querySelector('#form');
+        formulario.submit();
         Swal.fire({
             title: 'Formulario enviado!',
             icon: 'success',
