@@ -4,6 +4,7 @@ button.addEventListener('click', () => {
     const nombreApellido= document.querySelector('#nombreApellido');
     const email=document.querySelector('#email');
     const mensaje=document.querySelector('#mensaje');
+    const formulario = document.querySelector('#form');
     if (nombreApellido.value.trim() === '' || email.value.trim() === '' || mensaje.value.trim() === '' || !validarEmail(email.value)) {
         Swal.fire({
             title: 'Error',
@@ -12,7 +13,6 @@ button.addEventListener('click', () => {
             confirmButtonText: 'Ok'
         })
     } else {
-        const formulario = document.querySelector('#form');
         formulario.submit();
         Swal.fire({
             title: 'Formulario enviado!',
