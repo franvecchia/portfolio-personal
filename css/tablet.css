@@ -1,0 +1,126 @@
+@media (min-width: 768px) and (max-width: 1023px) {
+    .landing {
+        height: 100vh;
+        background: url(../imagenes/background-landing.png);
+        background-size: cover;
+    }
+
+    .title {
+        font-size: 46px;
+        font-weight: 600;
+        color: white;
+    }
+
+    .subtitle {
+        font-size: 24px;
+        color: white;
+        margin-bottom: 30px;
+        font-weight: 600;
+    }
+
+    .repositorio-orden {
+        display: grid;
+    }
+
+    
+    .sobreMi-img {
+        width: 45%;
+        height: 300px;
+        margin-top: 80px;
+    }
+
+    
+    .sobreMi-subtitulo {
+        color: white;
+        font-size: 28px;
+        font-weight: 600;
+        margin-top: 80px;
+    }
+
+    .sobreMi-texto {
+        color: #B0ADAD;
+        font-size: 17px;
+    }
+
+    .especializaciones-titulo {
+        font-size: 28px;
+        font-weight: 600;
+        color: white;
+    }
+
+    .cards-titulos {
+        margin-left: 10px;
+        font-size: 20px;
+        font-weight: 600;
+        color: white;
+        display: inline;
+    }
+
+    .especializaciones-textos {
+        color: #B0ADAD;
+        font-size: 15px;
+        margin-top: 30px;
+        margin-left: 10px;
+    }
+
+    .habilidades-img {
+        width: 65%;
+        height: 40px;
+        margin: 10px;
+    }
+
+    .habilidades-nombres {
+        font-size: 12px;
+        color: white;
+    }
+
+    .repositorio-orden {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .repositorio-box {
+        background-color:#292C36 ;
+        border-radius: 12px;
+        padding-bottom: 15px;
+        margin: 10px;
+        width: 70%;
+    }
+
+    .repositorio-img {
+        height: auto;
+        width: 100%;
+        border-radius: 12px 12px 0px 0px;
+    }
+
+    .repositorio-textos {
+        color: #B0ADAD;
+        font-size: 15px;
+        margin: 10px 10px 20px 12px;
+    }
+
+    .contactame {
+        font-size: 35px;
+        font-weight: bold;
+        color: white;
+        padding-top: 20px;
+    }
+
+    .contacto-box1 {
+        background-color: #38405A;
+        border-radius: 12px 12px 0px 0px;
+        margin: 10px;
+        margin-bottom: 0px;
+        width: 95%;
+        display: grid;
+    }
+
+    .contacto-box2 {
+        background-color: #292C36;
+        border-radius: 0px 0px 12px 12px;
+        width: 95%;
+        margin: 10px;
+        margin-top: 0px;
+        margin-bottom: 50px;
+    }
+}

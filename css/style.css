@@ -93,7 +93,7 @@
 .sobreMi-img {
     width: 553px;
     height: 406.31px;
-    margin-top: 100px;
+    margin-top: 30px;
 }
 
 .h3-titulos {
@@ -111,6 +111,7 @@
     color: white;
     font-size: 36px;
     font-weight: 600;
+    margin-top: 60px;
 }
 
 .sobreMi-texto {
