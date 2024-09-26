@@ -132,4 +132,8 @@
         margin-top: 0px;
         margin-bottom: 30px;
     }
+
+    #nav-button {
+        background-color: whitesmoke;
+    }
 }

@@ -123,4 +123,8 @@
         margin-top: 0px;
         margin-bottom: 50px;
     }
+
+    #nav-button {
+        background-color: whitesmoke;
+    }
 }
