@@ -1,11 +1,12 @@
 const button = document.querySelector('#btn');
 
-button.addEventListener('click', () => {
-    const nombreApellido= document.querySelector('#nombreApellido');
-    const email=document.querySelector('#email');
-    const mensaje=document.querySelector('#mensaje');
-    const formulario = document.querySelector('#form');
-    if (nombreApellido.value.trim() === '' || email.value.trim() === '' || mensaje.value.trim() === '' || !validarEmail(email.value)) {
+button.addEventListener('click', (e) => {
+    const nombreApellido= document.querySelector('#nombreApellido').value.trim();
+    const email=document.querySelector('#email').value.trim();
+    const mensaje=document.querySelector('#mensaje').value.trim();
+    
+    if (nombreApellido === '' || email === '' || mensaje=== '' || !validarEmail(email)) {
+        e.preventDefault()
         Swal.fire({
             title: 'Error',
             text: 'Faltan rellenar campos o el formato del mail es incorrecto.',
@@ -13,7 +14,6 @@ button.addEventListener('click', () => {
             confirmButtonText: 'Ok'
         })
     } else {
-        formulario.submit();
         Swal.fire({
             title: 'Formulario enviado!',
             icon: 'success',
