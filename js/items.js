@@ -1,61 +1,25 @@
-const skills = [
-    {
-        id: 1,
-        name: "HTML",
-        img: "../imagenes/iconos/habilidades/html.png"
-    },
-    {
-        id: 2,
-        name: "CSS",
-        img: "../imagenes/iconos/habilidades/css-3.png"
-    },
-    {
-        id: 3,
-        name: "JavaScript",
-        img: "../imagenes/iconos/habilidades/js.png"
-    },
-    {
-        id: 4,
-        name: "React.JS",
-        img: "../imagenes/iconos/habilidades/react.png"
-    },
-    {
-        id: 5,
-        name: "Git",
-        img: "../imagenes/iconos/habilidades/git.png"
-    },
-    {
-        id: 6,
-        name: "C++",
-        img: "../imagenes/iconos/habilidades/C++.png"
-    },
-    {
-        id: 7,
-        name: "Java",
-        img: "../imagenes/iconos/habilidades/java.png"
-    },
-    {
-        id: 8,
-        name: "Node.JS",
-        img: "../imagenes/iconos/habilidades/nodejs.png"
-    },
-    {
-        id: 1,
-        name: "SQL",
-        img: "../imagenes/iconos/habilidades/mysql.png"
-    }
-]
+import { skills, projects } from "./data.js"
 
-let card = document.getElementById('card')
+let cardSkills = document.getElementById('card-skills')
+let cardProjects = document.getElementById('card-projects')
 
 skills.map((x) => {
-    card.innerHTML += `
+    cardSkills.innerHTML += `
         <div class="habilidad-box col-sm-12 col-md-1">
-              <img
-                src="${x.img}"
-                class="habilidades-img"
-              />
-              <p class="habilidades-nombres">${x.name}</p>
-            </div>
+            <img src="${x.img}" alt="habilidad" class="habilidades-img" />
+            <p class="habilidades-nombres">${x.name}</p>
+        </div>
+    `
+})
+
+projects.map((x) => {
+    cardProjects.innerHTML += `
+        <div class="repositorio-box">
+            <img src="${x.img}" alt="proyecto" class="repositorio-img" />
+            <p class="repositorio-titulos">${x.title}</p>
+            <p class="repositorio-textos">${x.description}</p>
+            <a class="ver-codigo" href="${x.code}" target="_blank" >Ver Código</a>
+            ${x.page === "" ? ` ` : `<a class="ver-pagina" href="${x.page}" target="_blank">Ver Página</a>`}
+        </div>
     `
 })
