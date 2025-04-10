@@ -27,7 +27,7 @@ export const skills = [
     {
         id: 6,
         name: "C++",
-        img: "../imagenes/iconos/habilidades/C++.png"
+        img: "../imagenes/iconos/habilidades/C.png"
     },
     {
         id: 7,
@@ -36,11 +36,11 @@ export const skills = [
     },
     {
         id: 8,
-        name: "Node.JS",
-        img: "../imagenes/iconos/habilidades/nodejs.png"
+        name: "Spring",
+        img: "../imagenes/iconos/habilidades/springboot.png"
     },
     {
-        id: 1,
+        id: 9,
         name: "SQL",
         img: "../imagenes/iconos/habilidades/mysql.png"
     }
@@ -49,11 +49,11 @@ export const skills = [
 export const projects = [
     {
         id: 1,
-        img: "../imagenes/calculadora.png",
-        title: "Calculadora",
-        description: "Proyecto en el que simulo una calculadora básica y con las funciones principales. Este proyecto fue el primero que creé con JavaScript, y fue para comenzar a mecanizar las habilidades básicas e intermedias del lenguaje.",
-        code: "https://github.com/franvecchia/proyecto-javascript.git",
-        page: "https://franvecchia.github.io/proyecto-javascript/"
+        img: "../imagenes/calculadora-alquileres.png",
+        title: "Calculadora de alquileres",
+        description: "Proyecto creado para una inmobiliaria, con un diseño minimalista, que se utiliza como calculadora de alquileres por actualizacion de IPC. Esta pagina utiliza HTML, CSS y Javascript.",
+        code: "https://github.com/franvecchia/calculadora-alquileres",
+        page: "https://franvecchia.github.io/calculadora-alquileres/"
     },
     {
         id: 2,
