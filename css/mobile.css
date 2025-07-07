@@ -133,6 +133,11 @@
         margin-bottom: 30px;
     }
 
+    .contacto-texto {
+    color: white;
+    font-weight: 600;
+}
+
     #nav-button {
         background-color: whitesmoke;
     }

@@ -57,11 +57,11 @@ export const projects = [
     },
     {
         id: 2,
-        img: "imagenes/sportify.png",
-        title: "Sportify",
-        description: "Este fue mi primera pagina web simulando un e-commerce deportivo. Lo comencé solamente diseñando la maqueta con HTML y CSS, pero luego le agregué JavaScript simulando un carrito de compras y un formulario.",
-        code: "https://github.com/franvecchia/Proyecto-Html-Css",
-        page: "https://franvecchia.github.io/Proyecto-Html-Css/index.html",
+        img: "imagenes/carta-danio.png",
+        title: "Carta de daño IA",
+        description: "Aplicación creada como proyecto final de la carrera. Evalúa cartas de daño con IA para el rubro de seguros. Utiliza React.JS en frontend, Python y MySQL en backend, Kotlin en mobile, y se conecta a la API de OpenAI.",
+        code: "https://github.com/Andressubero/carta-de-danio-ia",
+        page: "",
     },
     {
         id: 3,
